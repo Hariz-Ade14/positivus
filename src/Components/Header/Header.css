@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 100px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin-top: 0px;
+    position: fixed;
+    top: 0;
+    /* bottom: 0; */
+    width: 100%;
+    /* margin: 0; */
+  
+}
+.brand {
+  /* background-color: rgba(0, 9, 128, 0.441); */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+}
+.name{
+    font-weight: light;
+    margin: 0;
+}
+.menu {
+  /* background-color: rgba(255, 214, 29, 0.441); */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0;
+  margin: 0;
+}
+.menu-items {
+  /* background-color: rgba(50, 255, 153, 0.441); */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style-type: none;
+  width: fit-content;
+  margin: 0;
+}
+.list-items:first-of-type {
+  /* background-color: red; */
+}
+.list-items {
+  margin: 0px 20px;
+}
+.butn {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  outline: none;
+  height: 45px;
+  width: 161px;
+  margin: 0px 0px 0px 20px;
+}
+.icon {
+  width: 30px;
+  height: 30px;
+  margin: 0px 5px 0px 0px;
+}
+.bars{
+    display: none;
+}
+@media screen and (max-width: 576px){
+    .header{
+        padding: 20px 20px;
+        position: fixed;
+        top: 0;
+        /* bottom: 0; */
+        width: 100%;
+        margin: 0;
+    }
+    .menu{
+        display: none;
+    }
+    .bars{
+        display: flex;
+    }
+}
