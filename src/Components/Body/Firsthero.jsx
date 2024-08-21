@@ -8,7 +8,7 @@ const Firsthero = () => {
       <div className="firstherotext">
         <div>
           <h1>
-            Navigating the digital landscape for success
+            Navigating the digital landscape for success.
           </h1>
           <img className="firstheroImg_1 m-0" src={img} alt="" />
           <p>

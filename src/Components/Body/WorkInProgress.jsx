@@ -15,8 +15,6 @@ const WorkInProgress = () => {
   const showContentFunc = (num,setNum) => {
       if(!num){
         setNum(true);
-        // setColor("red");
-        // rgba(185, 255, 102, 1)
       }
   };
 
