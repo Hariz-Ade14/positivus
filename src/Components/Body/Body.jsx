@@ -3,6 +3,7 @@ import Firsthero from './Firsthero'
 import Companies from './Companies'
 import Services from './Services'
 import WorkInProgress from './WorkInProgress'
+import Team from './Team'
 const Body = () => {
   return (
     <div className>
@@ -10,6 +11,7 @@ const Body = () => {
         <Companies/>
         <Services/>
         <WorkInProgress/>
+        <Team/>
     </div>
   )
 }
