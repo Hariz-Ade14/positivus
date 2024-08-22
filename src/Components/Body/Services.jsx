@@ -8,7 +8,6 @@ import card5 from "../../assets/Card5.png";
 import card6 from "../../assets/Card6.png";
 import card7 from "../../assets/Card7.png";
 import { MdArrowOutward } from "react-icons/md";
-import { TbMinusVertical } from "react-icons/tb";
 
 const Services = () => {
   return (
@@ -30,14 +29,11 @@ const Services = () => {
           </p>
         </div>
         <div className="services-content">
-          {/* <div className="rows">
-            <div className="col-12 col-md-6">
-              <img src={card1} className="" alt="" />
-            </div>
-            <div className="col-12 col-md-6 bg-danger">
-              <img src={card1} className="" alt="" />
-            </div>
-          </div> */}
+      
+          <div className="rows">
+            <img src={card1} className="" alt="" />
+            <img src={card2} className="" alt="" />
+          </div>
           <div className="rows">
             <img src={card3} className="" alt="" />
             <img src={card4} className="" alt="" />
@@ -79,41 +75,41 @@ const Services = () => {
         </div>
         <div
           style={{ background: "rgba(25, 26, 35, 1)", borderRadius: "45px" }}
-          className="mt-5 p-5 flex align-middle justify-between"
+          className="CS mt-5 p-5 flex align-middle justify-between"
         >
-          <div className="text-white w-25 p-3">
+          <div className="text-white w-100 w-sm-25 p-3">
             <p className="">
               For a local restaurant, we implemented a targeted PPC campaign
               that resulted in a 50% increase in website traffic and a 25%
               increase in sales
             </p>
-            <div class="flex align-middle justify-between" style={{width:"110px", color:"rgba(185, 255, 102, 1)"}}>
+            <div class="flex align-middle justify-between" style={{width:"130px", color:"rgba(185, 255, 102, 1)"}}>
               <span className="fw-bold">Learn More </span>
               <MdArrowOutward size={23} className="fw-bold"/>
             </div>
           </div>
-          {/* <TbMinusVertical color="gray" style={{height:"500px"}} /> */}
-          {/* <hr style={{color:"red"}}/> */}
-          <div style={{background:"gray",height:"210px",width:"3px"}}></div>
-          <div className=" text-white w-25 p-3">
+          <hr className="HR" />
+          <div className="bar" style={{background:"gray",height:"210px",width:"3px"}}></div>
+          <div className=" text-white w-100 w-sm-25 p-3">
             <p>
               For a B2B software company, we developed an SEO strategy that
               resulted in a first page ranking for key keywords and a 200%
               increase in organic traffic.
             </p>
-            <div class="flex align-middle justify-between" style={{width:"110px", color:"rgba(185, 255, 102, 1)"}}> 
+            <div class="flex align-middle justify-between" style={{width:"130px", color:"rgba(185, 255, 102, 1)"}}> 
               <span className="fw-bold">Learn More </span>
               <MdArrowOutward size={23} className="fw-bold"/>
             </div>
           </div>
-          <div style={{background:"gray",height:"210px",width:"3px"}}></div>
-          <div className=" text-white w-25 p-3">
+          <hr className="HR" />
+          <div className="bar" style={{background:"gray",height:"210px",width:"3px"}}></div>
+          <div className=" text-white w-100 w-sm-25 p-3">
             <p>
               For a national retail chain, we created a social media marketing
               campaign that increased followers by 25% and generated a 20%
               increase in online sales.
             </p>
-            <div class="flex align-middle justify-between" style={{width:"110px", color:"rgba(185, 255, 102, 1)"}}>
+            <div class="flex align-middle justify-between" style={{width:"130px", color:"rgba(185, 255, 102, 1)"}}>
               <span className="text-green-rgba(185, 255, 102, 1) fw-bold">Learn More </span>
               <MdArrowOutward size={23} className="fw-bold"/>
             </div>

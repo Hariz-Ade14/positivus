@@ -1,9 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import icon from "../../assets/Icon.jpg";
 import "./Header.css";
 import { HiOutlineBars3 } from "react-icons/hi2";
 const Header = () => {
-  // const [isBarVisible,setIsBarVisible] = useState(false)
   return (
     <div className="header">
       <div className="brand">
@@ -19,10 +18,7 @@ const Header = () => {
           <li className="list-items ">Blog</li>
         </ul>
         <button className="butn">Request a quote</button>
-        {/* {isBarVisible && ( */}
-
-        {/* )} */}
-      </div>{" "}
+      </div>
       <div className="bars">
         <HiOutlineBars3 size={40} />
       </div>

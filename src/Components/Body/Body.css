@@ -4,28 +4,21 @@
   justify-content: space-between;
   padding: 0px 100px;
   margin: 100px 0px;
-  /* background-color: red; */
 }
 .firstherotext {
   max-width: 513px;
-  /* height: 518px; */
-  /* background-color: rgb(136, 255, 136); */
+
   padding: 20px 0px 0px 0px;
   margin: 0;
-  /* display: flex;
-  align-items: center; */
 }
 .firstherotext h1 {
   font-size: 40px;
-  /* font-weight: lighter; */
   margin: 0;
   line-height: 54px;
 }
 .firstherotext p {
   margin: 30px 0px;
-  /* background-color: red; */
   font-size: 20px;
-  /* width: 600px; */
 }
 .firstherobtn {
   background: rgba(25, 26, 35, 1);
@@ -37,126 +30,250 @@
   outline: none;
   width: 200px;
   height: 50px;
-  /* margin-top: 1
-  5px; */
 }
 .firstheroImg_1 {
   display: none;
   margin: 0;
   width: 500px;
   height: 415px;
-  /* background-color: red; */
 }
-.Companies{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0px 100px;
-    /* background-color: black; */
-
+.Companies {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 100px;
 }
-.ServicesBody{
-    padding: 0px 100px;
-    margin-top: 100px;
+.ServicesBody {
+  padding: 0px 100px;
+  margin-top: 100px;
 }
-.Services{
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    margin: 0;
-    margin-top: 0px;
-    padding: 0;
-    /* background-color: red; */
+.Services {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0;
+  margin-top: 0px;
+  padding: 0;
 }
 .Services p {
-    width: 570px;
-    line-height: 20px;
-    font-size: 18px;
-    margin-left: 30px
+  width: 570px;
+  line-height: 20px;
+  font-size: 18px;
+  margin-left: 30px;
 }
-.img{
-    width: 600px;
+.img {
+  width: 600px;
 }
-.rows{
-    display: -webkit-flex;
-    justify-content: -webkit-space-between;
-    background-color: green;
-    width: 500px;
-    margin: 0px 10px;
-    /*margin-top: 20px;
-    -webkit-column-width: 100%;
-    -webkit-column-rule-width: 100%; */
+.services-content {
+  width: 100%;
+  padding: 0;
 }
-.rows img{
-    /* width: 50%; */
-    /* margin-top: 20px; */
-    height: 300px;
-    /* -webkit-column-width: 550px; */
+.rows {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0px 0px;
 }
-.lmw{
-    margin-top: 80px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0px 100px;
-    background: rgba(243, 243, 243, 1);
-    border-radius: 45px;
-    height: 360px;
+.rows img {
+  width: 49%;
+  margin-top: 20px;
 }
-.lmw div{
-    /* background-color: green; */
-    max-width: 450px;
-    padding: 0px 30px;
-   
+.lmw {
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 100px;
+  background: rgba(243, 243, 243, 1);
+  border-radius: 45px;
+  height: 360px;
 }
-.lmw img{
-    width: 494px;
-    height: 394px;
+.lmw div {
+  max-width: 450px;
+  padding: 0px 30px;
 }
-.h2-1{
-    display: block;
+.lmw img {
+  width: 494px;
+  height: 394px;
 }
-.h2{
-    display: none;
+.h2-1 {
+  display: block;
 }
-.Wip{
-    padding: 0px 100px;
-    margin-top: 40px;
-   
+.h2 {
+  display: none;
 }
-.wipDiv{
-   padding: 31px 60px;
-   border-radius: 45px;
-   margin-top: 50px;
-   width: 100%;
-   height: auto;
-   /* background-color: rgba(243, 243, 243, 1); */
-    /* display: flex;
-    align-items: center;
-    justify-content: space-between; */
-    box-shadow: 0px 10px 0px 0px black;
+.Wip {
+  padding: 0px 100px;
+  margin-top: 40px;
 }
-.plusIcon{
-    width: fit-content;
-    height: fit-content;
-    border: 1px solid black;
-    border-radius: 50%;
-    padding: 3px;
-    background-color: white;
+.wipDiv {
+  padding: 31px 60px;
+  border-radius: 45px;
+  margin-top: 50px;
+  width: 100%;
+  height: auto;
+
+  box-shadow: 0px 10px 0px 0px black;
 }
-.Team{
-    padding: 0px 100px;
-    margin-top: 100px;
+.plusIcon {
+  width: fit-content;
+  height: fit-content;
+  border: 1px solid black;
+  border-radius: 50%;
+  padding: 3px;
+  background-color: white;
+}
+.Team {
+  margin: 100px 100px 0px 100px;
 }
 
+.Team-members {
+  width: 80%;
+}
+.Team > div:first-of-type {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+}
+.teamMem {
+  border-radius: 45px;
+  border: 1px solid black;
+  height: 350px;
+  padding: 40px;
+  /* width: 370px; */
+  box-shadow: 0px 3px 0px 0px black;
+  overflow-y: hidden;
+}
+.teamMem > p {
+  width: auto;
+  overflow-y: hidden;
+}
+.memName {
+  display: flex;
+  align-items: end;
+}
+.memName p:first-of-type {
+  line-height: 4px;
+}
+.memName p {
+  margin: 0;
+}
+.teamBtn {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.teamBtn .btn {
+  width: 25%;
+}
+
+.Testimonial {
+  margin: 40px 100px;
+}
+.TestimonialHead,
+.contactHead {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 60%;
+}
+.contactHead {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 40%;
+}
+.TestimonialHead h1 {
+}
+.img2 {
+  display: none;
+}
+.Contact {
+  margin: 0px 100px;
+}
+.contactBody {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(243, 243, 243, 1);
+  border-radius: 45px;
+  margin-top: 30px;
+  padding: 50px 0px;
+}
+.contactBody > form {
+  width: 60%;
+  height: 100%;
+  padding: 0px 100px;
+  margin: 0;
+}
+input[type="radio"] {
+  accent-color: rgba(185, 255, 102, 1);
+  width: 30px;
+  height: 30px;
+  background-color: none;
+}
+.contactBody > form input[type="text"],
+textarea {
+  border: 1px solid black;
+  outline: none;
+  border-radius: 14px;
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+}
+.subbutn1 {
+  outline: none;
+  border-radius: 14px;
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  text-align: center;
+  background-color: rgba(25, 26, 35, 1);
+  color: white;
+  margin-top: 20px;
+}
+label {
+  margin: 30px 0px 0px 0px;
+}
+.contact-img img {
+  height: 590px;
+}
+.radioDiv {
+  width: 50%;
+}
+.subbutn2 {
+  outline: none;
+  border-radius: 14px;
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  text-align: center;
+  background-color: rgba(25, 26, 35, 1);
+  color: white;
+  margin-top: 20px;
+  display: none;
+}
+.HR {
+  display: none;
+}
+.wipDiv {
+  font-size: 20px;
+}
+
+.number {
+  font-size: "50px";
+}
+.title {
+  margin-top: 10px;
+}
 @media screen and (max-width: 992px) {
   .firsthero {
     flex-direction: column;
     padding: 0px 20px;
   }
-.firstherotext{
-   
-}
+  .firstherotext {
+  }
   .firstheroImg_1 {
     display: block;
     width: 100%;
@@ -168,62 +285,133 @@
   .firstherobtn {
     width: 100%;
   }
-  .Companies{
+  .Companies {
     padding: 0px;
-    /* max-width: 300px; */
     margin: 0;
     justify-content: center;
     width: fit-content;
-    /* background-color: red; */
     flex-wrap: wrap;
   }
-  .Companies img{
-     margin: 20px;
+  .Companies img {
+    margin: 20px;
   }
-  .ServicesBody{
+  .ServicesBody {
     padding: 0px 20px;
   }
-  .Services{
+  .Services {
     flex-direction: column;
-    height: 100px;
+    width: 100%;
+    height: auto;
     padding: 0;
-    margin: 0;
+    margin: 0 0px;
   }
-  .Services h3{
+  .Services h3 {
     text-align: center;
   }
-  .Services p{
+  .Services p {
     text-align: center;
-    /* background-color: red; */
-    width: 100vw;
+    width: 100%;
     margin: 0;
     margin-top: 20px;
-
   }
-  .rows{
+  .rows {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    /* background-color: red; */
-}
-.rows img{
+  }
+  .rows img {
     width: 100%;
     margin-top: 20px;
-    /* height: 280px; */
-}
-.lmw img{
+  }
+  .lmw img {
     display: none;
-}
-.h2{
+  }
+  .h2 {
     display: block;
-}
-.h2-1{
+  }
+  .h2-1 {
     display: none;
-}
-.Wip{
-  padding: 0px 20px;
-}
-.wipDiv{
-  /* padding: 0px 0px; */
-}
+  }
+  .Wip {
+    padding: 0px 20px;
+  }
+  .wipDiv {
+    padding: 10px 30px;
+    font-size: 19px;
+  }
+  .Team {
+    margin: 50px 20px;
+  }
+  .Team > div:first-of-type {
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+  }
+  .teamMem {
+    margin-top: 20px;
+  }
+  .teamBtn {
+    display: block;
+  }
+  .teamBtn .btn {
+    width: 100%;
+  }
+  .Testimonial {
+    margin: 40px 20px;
+  }
+  .TestimonialHead,
+  .contactHead {
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+  }
+  .testimonial-block {
+    display: none;
+  }
+  .img2 {
+    display: block;
+  }
+  .Contact {
+    margin: 0px 20px;
+  }
+  .contact-img {
+    display: none;
+  }
+  .contactBody > form {
+    width: 100%;
+    height: auto;
+    padding: 0px 30px;
+    margin: 0;
+  }
+  .radioDiv {
+    width: 100%;
+  }
+  .subbutn1 {
+    display: none;
+  }
+  .subbutn2 {
+    display: block;
+  }
+  .CS {
+    flex-direction: column;
+  }
+  .bar {
+    display: none;
+  }
+  .HR {
+    display: block;
+    color: gray;
+  }
+  .number {
+    font-size: "20px";
+  }
+  .wipDiv {
+    max-height: auto;
+    font-size: 16px;
+  }
+
+  .title {
+    font-size: 16px;
+    margin-top: 0px;
+  }
 }
