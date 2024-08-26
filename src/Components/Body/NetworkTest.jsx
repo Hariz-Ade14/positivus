@@ -4,22 +4,22 @@ import Error from './Error.jsx';
 import Body from "./Body.jsx"
 const Networktest = () => {
   const [isUserOnline, setIsUserOnline] = useState(navigator.onLine);
-  const [isRefreshed, setIsRefreshed] = useState(<Error/>);
+  const [isRefreshed, setIsRefreshed] = useState(false);
 
   useEffect(() => {
     const Online = (e) => {
       setIsUserOnline(true);
-      setIsRefreshed(<Body/>);
+      setIsRefreshed(false);
       // localStorage.setItem("isUserOnline",isUserOnline)
     };
     const Offline = () => {
       setIsUserOnline(false);
-      
+      setIsUserOnline(true);
 
     };
 
     const Refresh = () => {
-      setIsRefreshed(<Error/>);
+      setIsRefreshed(true);
     }
 
     window.addEventListener('online',Online);
@@ -34,7 +34,8 @@ const Networktest = () => {
   }, []);
 
   return (
-      isUserOnline ? <Body/> : <Error/>
+      // isUserOnline ? <Body/> : <Error/>
+      (isRefreshed && !isUserOnline )? <Error/> : <Body/>
   );
 }
 
