@@ -20,6 +20,7 @@ const Networktest = () => {
 
     const Refresh = () => {
       setIsRefreshed(true);
+      return (<Error/>);
     }
 
     window.addEventListener('online',Online);
