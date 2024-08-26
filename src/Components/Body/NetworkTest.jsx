@@ -18,12 +18,13 @@ const Networktest = () => {
     });
     window.addEventListener('offline', Offline);
 
-    // const hasRefreshed = e.type;
+    
+      const hasRefreshed =   window.addEventListener('beforeunload', Offline);
  
 
-    // if(!isUserOnline && hasRefreshed ){
-    //   window.addEventListener('beforeunload', Offline);
-    // } 
+    if(!isUserOnline && hasRefreshed ){
+      window.addEventListener('beforeunload', Offline);
+    } 
 
     return () => {
       window.removeEventListener('online', (e) => {
