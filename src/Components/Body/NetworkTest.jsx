@@ -6,23 +6,30 @@ const Networktest = () => {
   const [isUserOnline, setIsUserOnline] = useState(navigator.onLine);
 
   useEffect(() => {
-    const Online = () => {
-      setIsUserOnline(true);
-      localStorage.setItem()
-    };
+    // const Online = (e) => {
+    //   setIsUserOnline(true);
+    //   console.log(e.type);
+    // };
     const Offline = () => setIsUserOnline(false);
 
-    window.addEventListener('online', Online);
+    window.addEventListener('online',(e) => {
+      setIsUserOnline(true);
+      console.log(e.target);
+    });
     window.addEventListener('offline', Offline);
 
-    const hasRefreshed = window.addEventListener('beforeunload', Offline);
+    // const hasRefreshed = e.type;
+ 
 
-    if(!isUserOnline && hasRefreshed ){
-      window.addEventListener('beforeunload', Offline);
-    } 
+    // if(!isUserOnline && hasRefreshed ){
+    //   window.addEventListener('beforeunload', Offline);
+    // } 
 
     return () => {
-      window.removeEventListener('online', Online);
+      window.removeEventListener('online', (e) => {
+        setIsUserOnline(true);
+        console.log(e.type);
+      });
       window.removeEventListener('offline', Offline);
       // window.addEventListener('beforeunload', Offline);
     };
