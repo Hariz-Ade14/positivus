@@ -1,3 +1,20 @@
+.error{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: red;
+}
+.error-div{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: green; */
+}
+.error p{
+ text-align: center;
+ font-size: 25px;
+}
 .firsthero {
   display: flex;
   align-items: center;

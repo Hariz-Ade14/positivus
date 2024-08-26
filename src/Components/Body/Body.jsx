@@ -8,9 +8,11 @@ import Team from './Team'
 import Contact from './Contact'
 import Footer from '../Footer/Footer.jsx'
 import "./Body.css"
+import Header from '../Header/header.jsx'
 const Body = () => {
   return (
     <div className>
+        <Header/>
         <Firsthero/>
         <Companies/>
         <Services/>
