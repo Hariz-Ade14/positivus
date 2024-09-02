@@ -5,7 +5,7 @@ import Networktest from "./Components/Body/NetworkTest.jsx";
 function App() {
   return (
     <>
-      <Networktest/>
+      <Body/>
     </>
   );
 }
